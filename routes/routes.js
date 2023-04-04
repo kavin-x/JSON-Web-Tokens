@@ -7,4 +7,5 @@ const { express } = pkg;
 
 Routes.post("/register", createUser);
 Routes.post("/login", loginUser);
+
 export default Routes;
